@@ -6,5 +6,7 @@ x = requests.get('https://reqres.in//api/users',auth = ('username','password'))
 jsonVar = x.json()
 
 print(requests.codes.unauthorized)
+print("Hai")
+
 
 
